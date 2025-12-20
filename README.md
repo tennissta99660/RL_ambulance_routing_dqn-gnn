@@ -55,14 +55,14 @@ Verify the grid setup and basic environment parameters.
 python environment.py
 ```
 
-2️ Train the Agent (GNN + DQN)
+### 2️ Train the Agent (GNN + DQN)
 Start the training loop. This will use the GNN to learn optimal routing and save the model to neuroroute_model_batched_final.pth.
 
 ```bash
 python gnn.py
 ```
 
-3️ Run the 3D Visualization
+### 3️ Run the 3D Visualization
 Launch the Ursina engine to watch the trained ambulance navigate the city in real-time.
 ```bash
 python visualize_ursina.py
