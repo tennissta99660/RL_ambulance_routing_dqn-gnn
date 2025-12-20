@@ -45,18 +45,22 @@ cd Rl_ambulance_routing_dqn-gnn
 
 # Install dependencies
 pip install -r requirements.txt
-# Running the project
-Initialize the environment
+##  Running the Project
 
+Follow these steps to initialize, train, and visualize the NeuroRoute agent.
+
+### 1️ Initialize the Environment
+Verify the grid setup and basic environment parameters.
+```bash
 python environment.py
 
-
-Train the agent
+2️ Train the Agent (GNN + DQN)
+Start the training loop. This will use the GNN to learn optimal routing and save the model to neuroroute_model_batched_final.pth.
 
 python gnn.py
 
-
-Run the visualization
+3️ Run the 3D Visualization
+Launch the Ursina engine to watch the trained ambulance navigate the city in real-time.
 
 python visualize_ursina.py
 
