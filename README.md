@@ -53,16 +53,18 @@ Follow these steps to initialize, train, and visualize the NeuroRoute agent.
 Verify the grid setup and basic environment parameters.
 ```bash
 python environment.py
-
+```
+```bash
 2️ Train the Agent (GNN + DQN)
 Start the training loop. This will use the GNN to learn optimal routing and save the model to neuroroute_model_batched_final.pth.
-
+```
+```bash
 python gnn.py
-
+```
+```bash
 3️ Run the 3D Visualization
 Launch the Ursina engine to watch the trained ambulance navigate the city in real-time.
-
 python visualize_ursina.py
-
+```
 # Video representation of the project
 ![Video Project](https://github.com/user-attachments/assets/97ec17cf-1e1f-482c-a5db-26bfe4d55ed4)
