@@ -45,7 +45,17 @@ cd Rl_ambulance_routing_dqn-gnn
 
 # Install dependencies
 pip install -r requirements.txt
+# Running the project
+Initialize the environment
+python environment.py
 
+
+Train the agent
+python gnn.py
+
+
+Run the visualization
+python visualize_ursina.py
 
 # Video representation of the project
 ![Video Project](https://github.com/user-attachments/assets/97ec17cf-1e1f-482c-a5db-26bfe4d55ed4)
