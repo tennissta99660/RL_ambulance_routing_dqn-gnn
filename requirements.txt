@@ -1,0 +1,7 @@
+gymnasium
+networkx
+numpy
+matplotlib
+torch
+torch_geometric
+ursina
