@@ -2,7 +2,7 @@
 import torch
 import numpy as np
 from ursina import *
-from f1 import SmartCityEnv
+from environment import SmartCityEnv
 from gnn import NeuroRouteGNN, get_graph_state, DEVICE
 from torch_geometric.data import Data
 
@@ -179,3 +179,4 @@ def ai_step():
 
 invoke(ai_step, delay=1.0)
 app.run()
+
