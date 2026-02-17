@@ -24,7 +24,7 @@ import torch.nn.functional as F
 from torch_geometric.data import Data, Batch
 from torch_geometric.nn import GCNConv
 
-from f1 import SmartCityEnv
+from environment import SmartCityEnv
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -441,3 +441,4 @@ if __name__ == "__main__":
         seed=42,
         min_replay_size=512
     )
+
